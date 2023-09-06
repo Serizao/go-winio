@@ -352,7 +352,7 @@ func makeServerPipeHandle(path string, sd []byte, c *PipeConfig, first bool) (wi
 		}
 	}
 
-	typ := uint32(windows.FILE_PIPE_REJECT_REMOTE_CLIENTS)
+	typ := uint32(windows.FILE_PIPE_ACCEPT_REMOTE_CLIENTS)
 	if c.MessageMode {
 		typ |= windows.FILE_PIPE_MESSAGE_TYPE
 	}
