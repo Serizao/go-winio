@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/Microsoft/go-winio/internal/computestorage"
-	"github.com/Microsoft/go-winio/internal/fs"
-	"github.com/Microsoft/go-winio/vhd"
+	"github.com/Serizao/go-winio/internal/computestorage"
+	"github.com/Serizao/go-winio/internal/fs"
+	"github.com/Serizao/go-winio/vhd"
 )
 
 func getWindowsBuildNumber() uint32 {
